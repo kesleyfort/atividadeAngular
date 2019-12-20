@@ -1,0 +1,5 @@
+<h2>My Heroes</h2>
+<div class="heroGrid">
+  <p [class.heroBlock]="hero" [class.selectedHero]="hero === selectedHero" *ngFor="let hero of heroes" (click)="onSelect(hero)">{{hero.name}}</p>
+</div>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>

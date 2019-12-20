@@ -1,0 +1,26 @@
+.heroBlock {
+  border: 0.1em solid black;
+  padding: 20px;
+  margin: 10px;
+}
+.heroBlock:hover{
+  background: black;
+  color: white;
+}
+.heroGrid {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  background-color: #fff;
+  color: #444;
+  margin: 30px;
+  border-bottom: #444;
+  border-width: 1px;
+}
+.heroText{
+  color: black;
+}
+.selectedHero{
+  background: black;
+  color: white;
+}
